@@ -6,9 +6,10 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <title>Muamer's Portfolio</title>
+    <title>GitHub Pages Demo</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
+        /* Dark theme styles remain unchanged */
         :root {
             --bg-primary: #0f172a;
             --bg-secondary: #1e293b;
@@ -227,58 +228,69 @@
         .project-card:hover::before {
             opacity: 1;
         }
+
+        .demo-badge {
+            background: var(--accent-primary);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin-top: 1rem;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Muamer Hajji</h1>
-            <p>Software Developer & Tech Enthusiast</p>
+            <h1>GitHub Pages Demo</h1>
+            <p>A demonstration of a modern portfolio website with dark theme</p>
+            <span class="demo-badge">Demo Content</span>
         </div>
     </header>
 
     <nav>
         <ul>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#examples">Examples</a></li>
+            <li><a href="#info">Info</a></li>
         </ul>
     </nav>
 
-    <section class="projects" id="projects">
+    <section class="projects" id="features">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Demo Features</h2>
             <div class="project-grid">
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>GitHub Pages Website</h3>
-                        <p>A modern, responsive personal website built with HTML, CSS, and hosted on GitHub Pages.</p>
+                        <h3>Modern Dark Theme</h3>
+                        <p>Showcasing a modern dark theme with carefully selected colors for optimal readability and aesthetics.</p>
                         <div class="skills">
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
-                            <span class="skill-tag">GitHub Pages</span>
+                            <span class="skill-tag">Dark Mode</span>
+                            <span class="skill-tag">CSS Variables</span>
+                            <span class="skill-tag">Color Theory</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Finance Tracker</h3>
-                        <p>Web application for tracking personal finances and expenses.</p>
+                        <h3>Responsive Design</h3>
+                        <p>Fully responsive layout that adapts to any screen size using modern CSS Grid and Flexbox.</p>
                         <div class="skills">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">HTML</span>
-                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">CSS Grid</span>
+                            <span class="skill-tag">Flexbox</span>
+                            <span class="skill-tag">Media Queries</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Event Monitor</h3>
-                        <p>System for monitoring and managing local events and notifications.</p>
+                        <h3>Interactive Elements</h3>
+                        <p>Smooth animations and hover effects to enhance user experience and engagement.</p>
                         <div class="skills">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Web Scraping</span>
-                            <span class="skill-tag">Automation</span>
+                            <span class="skill-tag">Animations</span>
+                            <span class="skill-tag">Transitions</span>
+                            <span class="skill-tag">Hover Effects</span>
                         </div>
                     </div>
                 </div>
@@ -286,39 +298,37 @@
         </div>
     </section>
 
-    <section id="skills">
+    <section id="examples">
         <div class="container">
-            <h2>Skills & Technologies</h2>
+            <h2>Example Components</h2>
             <div class="project-grid">
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Frontend Development</h3>
+                        <h3>Card Components</h3>
                         <div class="skills">
-                            <span class="skill-tag">HTML5</span>
-                            <span class="skill-tag">CSS3</span>
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Hover Effects</span>
+                            <span class="skill-tag">Shadows</span>
+                            <span class="skill-tag">Gradients</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Backend Development</h3>
+                        <h3>Navigation</h3>
                         <div class="skills">
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">APIs</span>
+                            <span class="skill-tag">Sticky Nav</span>
+                            <span class="skill-tag">Smooth Scroll</span>
+                            <span class="skill-tag">Mobile Menu</span>
                         </div>
                     </div>
                 </div>
                 <div class="project-card">
                     <div class="project-content">
-                        <h3>Tools & Others</h3>
+                        <h3>Typography</h3>
                         <div class="skills">
-                            <span class="skill-tag">Git</span>
-                            <span class="skill-tag">GitHub</span>
-                            <span class="skill-tag">VS Code</span>
-                            <span class="skill-tag">Command Line</span>
+                            <span class="skill-tag">Font Scaling</span>
+                            <span class="skill-tag">Contrast</span>
+                            <span class="skill-tag">Readability</span>
                         </div>
                     </div>
                 </div>
@@ -326,13 +336,14 @@
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact" id="info">
         <div class="container">
-            <h2>Get in Touch</h2>
-            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <h2>About This Demo</h2>
+            <p>This is a demonstration page showing various features and components of a modern website built with GitHub Pages.</p>
+            <p>All content is placeholder text for demonstration purposes only.</p>
             <div class="social-links">
-                <a href="https://github.com/mhazne0" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
-                <a href="mailto:your.email@example.com" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" title="Demo Link"><i class="fas fa-link"></i></a>
             </div>
         </div>
     </section>
